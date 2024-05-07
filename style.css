@@ -1,0 +1,178 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tête {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -250px;
+}
+.tête img{
+   
+    padding-left: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.solde {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 156px;
+height: 96px;
+flex-shrink: 0;
+gap: 10px;
+border-radius: 8px;
+background: #333132;
+
+}
+.solde h3, .compte h3{
+    color: #DDD;
+font-family: Roboto;
+width:114px ;
+height: 20px;
+font-size: 12px;
+padding: 8px ;
+position: relative;
+bottom: 20px;
+}
+.solde img, .compte img{
+    display: block;
+padding-top: 8px;
+padding-left: 8px;
+    
+}
+.solde h2, .compte h2{
+    display: flex;
+    justify-content: space-between;
+   padding-left: 16;
+   font-family: Roboto;
+   font-size: 12px;
+   color: #DDD;
+   position: relative;
+   bottom:100px ;
+}
+.soro{
+    display: flex;
+    width: 140px;
+    height: 16px;
+    padding-top: 64px;
+    padding-left: 8px
+}
+.soro img{
+    position: relative;
+    bottom: 100px;
+    padding-left: 40px;
+    width: 15px;
+   
+}
+.compte {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 156px;
+    height: 96px;
+    border-radius: 8px;
+    background: #333132;
+
+}
+
+
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 50px;
+    font-size: 10px;
+}
+
+.icon img {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+}
+
+div.services{
+    display: flex;
+    justify-content: space-between;
+}
+div.elements{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+div.elements .element-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+div.elements .element-2{
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+
+.elements img {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+.acha{
+   
+    display: flex;
+    justify-content:space-between;
+    font-size: 12px;
+}
+.acha img{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+div.tras{
+    padding-right: 180px;
+}
+div.ac img{
+    background-color: none;
+    border: none;
+}
+.foot{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color:#FAFAFA ;
+}
+.foot img{
+    display: block;
+    align-items: center;
+    padding-left: 12px;
+}
+.on , .ic{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    font-size: 10px;
+}
+.on img, .ic img{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+}
